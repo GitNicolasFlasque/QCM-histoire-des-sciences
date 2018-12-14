@@ -1,0 +1,315 @@
+# template AMC-TXT
+PaperSize: A4
+Lang: FR
+ShuffleQuestions: 1
+CompleteMulti: 0
+BoxColor: black
+ManualDuplex: 1
+
+#possibilité de fiches réponses séparées
+SeparateAnswerSheet: 1
+AnswerSheetColumns: 2
+AnswerSheetTitle: FICHE DE REPONSE
+
+Les réponses doivent être fournies uniquement sur cette feuille
+
+Les cases doivent être [*remplies*] pour être prises en compte
+
+LaTeX-Preambule: \usepackage{amsmath}
+LaTeX-Preambule: \usepackage{amssymb}
+
+# pour ecrire les lettres à côté des cases sur la fiche de réponse
+LaTeX-BeginDocument: \makeatletter\AMC@outside@boxtrue\makeatother
+
+# configuration de l'entete de copies
+Code: 8
+Presentation:
+[[\vspace{3\baselineskip}]]
+[==SUJET DU QUESTIONNAIRE==]
+
+Ne répondez pas directement sur ce sujet. Utilisez la [*FICHE DE REPONSE*] pour y reporter vos réponses.
+
+Les questions comportant le symbole [[$\clubsuit$]] sont des questions pour lesquelles il y a plusieurs bonnes réponses possibles.
+[[\vspace{1\baselineskip}]]
+
+L-Student: Veuillez coder votre numéro étudiant Efrei dans la grille de gauche, et indiquer vos nom, prénom et numéro étudiant ci-dessous
+L-Name: Nom - Prénom  -  n° étudiant
+NameFieldLines: 3
+
+# Titre du QCM - modifier le texte de la ligne suivante
+Title: 
+[==[*L2 2018/2019 - FHS301 - HISTOIRE DES SCIENCES*]==]
+
+[*le 18/12/2018*]
+
+[*Documents et calculatrices non autorisés*]
+[[\vspace{1\baselineskip}]]
+
+*([numquestions=10] [==Histoire des Mathématiques==]
+
+* Le système de numération utilisé par les Egyptiens était
+	- positionnel en base 10
+	+ non-positionnel en base 10
+	- positionnel en base 60
+	- non-positionnel en base 60
+
+* Le système de numération utilisé par les Grecs était
+	- positionnel en base 10
+	+ non-positionnel en base 10
+	- positionnel en base 60
+	- non-positionnel en base 60
+
+* Quel est l’ordre chronologique correct (du plus ancien au plus moderne) ?
+	- Pythagore, Archimède, Euclide
+	+ Pythagore, Euclide, Archimède
+	- Archimède, Pythagore, Euclide
+	- Archimède, Euclide, Pythagore
+
+* Qui a introduit en Europe le système de numération arabe ?
+	- Muhammad al-Khwarizmi
+	- Al Samaw’al
+	- Gérard de Crémone
+	+ Léonard de Pise
+
+* Dans quel contexte les nombres complexes ont été utilisés pour la première fois ?
+	- Dans la résolution d’équations du second degré
+	+ Dans la résolution d’équations du troisième degré
+	- Dans le problème géométrique de la trisectrice de l’angle
+	- Dans la représentation des rotations dans le plan
+
+* Qui a introduit la représentation des nombres complexes dans le plan ?
+	- Leonhard Euler
+	+ Car Friedrich Gauss
+	- René Descartes
+	- Georg Cantor 
+
+* Laquelle de ces suites correspond aux premiers nombres triangulaires ?
+	- 0, 1, 2, 3, 5, 8, 13
+	- 1, 2, 4, 9, 16, 25
+	+ 1, 3, 6, 10, 15, 21
+	- 0, 2, 5, 9, 14, 20
+
+* Quel philosophe grec défendait l’idée que le mouvement est une illusion ?
+	+ Parménide d’Elée
+	- Anaximandre de Milet
+	- Démocrite d’Abdère
+	- Archimède de Syracuse 
+
+* Un infini ne pouvant pas être mis en bijection avec les nombres naturels est appelé
+	- un infini actuel
+	- un infini potentiel
+	- un infini dénombrable
+	+ un infini indénombrable
+
+* Le paradoxe de Galilée montre
+	- l’existence de processus qui s’achèvent mais qui n’ont pas d’étape finale
+	- l’existence de processus qui commencent mais qui n’ont pas d’étape initiale
+	+ l’existence d’objets dont une partie est aussi grande que le tout
+	- l’existence d’une somme infinie de termes donnant un résultat fini
+
+* Quel est l’ordre chronologique correct (du plus ancien au plus moderne) ?
+	+ Bolzano, Cantor, Godel
+	- Bolzano, Godel, Cantor
+	- Cantor, Bolzano, Godel
+	- Godel, Cantor, Bolzano
+
+* Soient E et F deux ensembles tels qu’il existe une surjection de E vers F. Alors
+	- La cardinalité de E est strictement plus grande que la cardinalité de F
+	+ La cardinalité de E est plus grande ou égale à la cardinalité de F
+	- La cardinalité de E est strictement plus petite que la cardinalité de F
+	- La cardinalité de E est plus petite ou égale à la cardinalité de F
+
+* Soient E et F deux ensembles tels qu’il existe une injection de E vers F. Alors
+	- La cardinalité de E est strictement plus grande que la cardinalité de F
+	- La cardinalité de E est plus grande ou égale à la cardinalité de F
+	- La cardinalité de E est strictement plus petite que la cardinalité de F
+	+ La cardinalité de E est plus petite ou égale à la cardinalité de F
+
+* L’hypothèse du continu dit 
+	- qu’il y a une bijection entre les nombres réels et les nombres complexes
+	- qu’il n’y a pas d’infini plus grand que celui des nombres réels
+	+ que l’infini indénombrable le plus petit est celui des nombres réels
+	- que l’ensemble des parties de [[$\mathbb{N}$]] est [[$\mathbb{R}$]]
+
+*) 
+
+*([numquestions=5] [==Histoire de l'Espace et du Temps==]
+
+* Quel est l’ordre chronologique correct (du plus ancien au plus moderne) ?
+	+ Aristote, Hipparque, Ptolémée
+	- Aristote, Ptolémée, Hipparque
+	- Hipparque, Aristote, Ptolémée
+	- Hipparque, Ptolémée, Aristote
+
+
+* Comment s’appelle l’œuvre majeure de Ptolémée ?
+	+ L’Almageste
+	- Le Banquet des Cendres
+	- Le Ciel
+	- Le Timée
+
+** Parmi les affirmations suivantes, avec lesquelles serait d’accord Hipparque ? (Plusieurs bonnes réponses possibles)
+	+ Le mouvement du Soleil est circulaire et uniforme
+	- Le centre de l’orbite du Soleil est la Terre
+	- Le mouvement des planètes est circulaire et uniforme
+	+ Le centre de l’orbite des étoiles est la Terre
+
+* Une théorie avancée par les astronomes hellénistiques a motivé Copernic à introduire le système héliocentrique. Laquelle ?
+	- La théorie des épicycles
+	- La théorie des excentricités
+	+ La théorie du point équant
+	- La théorie du déférent
+
+* Quel est l’ordre chronologique correct (du plus ancien au plus moderne) ?
+	+ Bruno, Galilée, Leibniz
+	- Bruno, Leibniz, Galilée
+	- Galilée, Bruno, Leibniz
+	- Leibniz, Galilée, Bruno
+
+* Quelle expérience a mis en évidence la relativité du mouvement uniforme ?
+	- L’expérience du seau d’eau de Newton
+	- L’expérience de Mickelson-Morlay
+	+ L’expérience du bateau de Gassendi
+	- L’expérience de la pomme de Galilée
+
+* Les équations de l’électromagnétisme de Maxwell ont été écrites 
+	- entre 1750 et 1800
+	- entre 1800 et 1850
+	+ entre 1850 et 1900
+	- entre 1900 et 1950
+*)
+
+
+*([numquestions=10] [==Introduction générale à l'Histoire des Sciences==]
+
+** Suite aux deux amphithéâtres consacrés à l’introduction générale de l’histoire des sciences, quelle définition faut-il retenir de cette discipline ?
+- C’est le récit chronologique des découvertes scientifiques
++ C’est une enquête rigoureuse sur la progression des modes de connaissance 
+- C’est le récit  des grands changements scientifiques dans l’histoire
++ C’est l’étude de l’évolution des paradigmes scientifiques, de la pensée
+
+** A partir de quel moment considère-ton qu’il y a réellement science ?
+- Dès lors que nous sommes en capacité de raisonner
++ Dès lors qu’un contenu de connaissance fait l’objet d’une formalisation systématique
+- Dès lors qu’un savoir fait l’objet d’une croyance partagée
++ Dès lors que des connaissances scientifiques, vérifiées formellement et/ou expérimentalement, sont universellement tenues pour vraies
+
+** Platon, dans sa République, distingue deux mondes : comment les nomme-t-ils ?
+- Le monde de la lumière
++ Le monde sensible
+- Le monde de la matière
++ Le monde intelligible
+
+* Platon se sert d’une allégorie pour illustrer sa distinction de deux mondes : comment se nomme-t-elle ?
+- De la grotte
+- Des esclaves
++ De la caverne
+- De la philosophie
+
+** Pour Platon, qu’est-ce qui nous permet d’atteindre la connaissance vraie ?
++ Les Idées
++ Les mathématiques
+- Les sens
+- L’imagination
+
+* Quelle formule était inscrite sur le fronton de l’Académie de Platon à Athènes ?
+- Que nul n’entre ici s’il n’est philosophe
+- Que nul n’entre ici s’il n’est mathématicien
++ Que nul n’entre ici s’il n’est géomètre
+- Que nul n’entre ici s’il n’est sophiste
+
+** Pour quelle raison le paradigme platonicien des deux mondes a-t-il freiné l’essor des sciences ?
+- Parce qu’il promeut la nécessité, pour la science, d’être en étroite relation avec la matière, la nature, le monde concret
++ Parce que seul l’intelligible pur, soit l’abstraction seule, peut accéder au vrai 
+- Parce que l’expérience sensible était, pour lui, au cœur de la recherche de la vérité
++ Parce qu’il rompt tout lien possible entre les réalités intelligibles et les réalités sensibles
+
+** Dans le livre VII de La République, Platon met en place un système de valeurs qui a structuré et structure encore notre image du monde. Relevez deux couples platoniciens de valeurs synonymes parmi les quatre proposés ici.
++ Intelligence/Beauté
+- Intelligence/Cruauté
++ Sensibilité/Ignorance
+- Sensibilité/Vérité
+
+* En quoi la position scientifique d’Aristote se distingue-telle de la position de Platon quant à la connaissance ?
+- Aristote réhabilite la rhétorique
+- Aristote crée la logique formelle
++ Avec Aristote, ce qui est observé prime sur la théorie
+- Avec Aristote, la perception sensible n’a plus droit de cité
+
+** Les grandes ruptures épistémologiques sont influencées par des causes extérieures aux sciences. Quelles sont ces causes ?
++ Un environnement socioculturel, politique et économique
++ Les avancées techniques
+- Le hasard
+- La religion
+
+** Que faut-il entendre par « révolution copernicienne » ?
+- Que le système géocentrique est réhabilité
++ Que le système héliocentrique supplante le système géocentrique
++ Que l’inversion de la relation sujet/objet produit un nouveau paradigme philosophique
+- Que Copernic fait sa révolution
+
+* Que faut-il entendre par « sciences molles » ?
+- Des sciences non structurées
+- Des sciences non déterminées
++ Des sciences dont l’objet est instable, changeant
+- Des sciences flasques
+
+** Parmi ces quatre propositions, relevez deux blessures narcissiques faites à l’homme.
++ La conscience, contrairement à ce que pensait Descartes, n’est plus reine en sa demeure (théorie de l’inconscient)
++ L’homme ne jouit plus d’une place particulière dans l’ordre de la création (théorie de la sélection naturelle, Darwin)
+- Dieu est le créateur, l’homme sa créature ; Dieu est tout puissant, l’homme est faible par nature
+- « La terre ne forme qu’une parcelle insignifiante de système cosmique » (Freud, à propos du démenti de Copernic)
+
+* Les Grecs avaient l’intuition de l’inconscient, porté notamment par les Chœurs dans les tragédies, mais qui l’a systématisé et formalisé, élevé au rang de théorie scientifique ?
+- Leibniz
+- Lacan
+- Darwin
++ Freud
+
+*)
+
+*([numquestions=5] [==Histoire de l'Informatique==]
+
+* Quelle est la principale innovation apportée par le Métier à tisser Jacquard ?
++ c'est la première machine qui utilise un modèle codé par carte perforée
+- c'est une des premières machines à calculer industrialisées
+- c'est la première machine programmable
+- c'est la première machine qui produit des cartes perforées
+
+* Quelle source d'énergie est utilisée par les premières horloges ?
++ l'énergie gravitationnelle
+- l'énergie thermique
+- l'énergie chimique
+- l'énergie éolienne
+
+* Quel dispositif est utilisé par le sémaphore de Chappe pour transmettre des informations ?
++ des bras articulés
+- un code binaire sur 5 bits
+- un encodage avec des traits et des points
+- des signaux lumineux 
+
+** Quel(s) scientifiques ont élaboré la théorie des algorithmes ? (plusieurs réponses possibles)
++ Alan Turing
++ Alonzo Church
+- John von Neumann
+- Ada Lovelace
+
+* Quel scientifique a défini l'architecture des machines sur le modèle CPU - Mémoire - UAL ?
++ John von Neumann
+- Charles Babbage
+- Konrad Zuse
+- John Eckert
+
+* L'ordinateur ENIAC, mis au point en 1945, est une machine :
++ électronique utilisant des tubes à vide
+- électronique utilisant des transistors
+- mécanique utilisant des roues crantées
+- électromécanique réalisant les quatre opérations
+
+* Ada Lovelace a indiqué, à propos des machines programmables, que :
++ elles pouvaient faire bien plus que du simple calcul numérique
+- elles pouvaient uniquement faire du calcul numérique
+- elles pouvaient produire des résultats probabilistes
+- elles pouvaient communiquer entre elles avec des données binaires
+
+*)
