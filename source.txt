@@ -24,15 +24,19 @@ LaTeX-BeginDocument: \makeatletter\AMC@outside@boxtrue\makeatother
 # configuration de l'entete de copies
 Code: 8
 Presentation:
-[[\vspace{3\baselineskip}]]
-[==SUJET DU QUESTIONNAIRE==]
+[[\vspace{2\baselineskip}]]
+[== Consignes pour le questionnaire ==]
 
-Ne répondez pas directement sur ce sujet. Utilisez la [*FICHE DE REPONSE*] pour y reporter vos réponses.
+[[$\textbullet$]]  Ce questionnaire comporte 30 questions.
 
-Les questions comportant le symbole [[$\clubsuit$]] sont des questions pour lesquelles il y a plusieurs bonnes réponses possibles.
+[[$\textbullet$]]  Ne répondez pas directement sur le sujet. Utilisez la [*FICHE DE REPONSE*] en dernière page pour reporter vos réponses.
+
+[[$\textbullet$]]  A la fin de l'épreuve, vous devrez remettre [*ce sujet*] ainsi que la [*fiche de réponse*]
+
+[[$\textbullet$]]  Les questions comportant le symbole [[$\clubsuit$]] sont des questions pour lesquelles il y a plusieurs bonnes réponses possibles.
 [[\vspace{1\baselineskip}]]
 
-L-Student: Veuillez coder votre numéro étudiant Efrei dans la grille de gauche, et indiquer vos nom, prénom et numéro étudiant ci-dessous
+L-Student: Indiquez votre n° étudiant Efrei Paris dans la grille de gauche, et indiquer vos nom, prénom et n° étudiant ci-dessous
 L-Name: Nom - Prénom  -  n° étudiant
 NameFieldLines: 3
 
@@ -43,23 +47,25 @@ Title:
 [*le 18/12/2018*]
 
 [*Documents et calculatrices non autorisés*]
+
+[* Durée : 30 mn *]
 [[\vspace{1\baselineskip}]]
 
 *([numquestions=10] [==Histoire des Mathématiques==]
 
-* Le système de numération utilisé par les Egyptiens était
+* Le système de numération utilisé par les Egyptiens était un système :
 	- positionnel en base 10
 	+ non-positionnel en base 10
 	- positionnel en base 60
 	- non-positionnel en base 60
 
-* Le système de numération utilisé par les Grecs était
+* Le système de numération utilisé par les Grecs était un système :
 	- positionnel en base 10
 	+ non-positionnel en base 10
 	- positionnel en base 60
 	- non-positionnel en base 60
 
-* Quel est l’ordre chronologique correct (du plus ancien au plus moderne) ?
+* Dans quel ordre chronologique ont vécu les personnes suivantes, du plus ancien au plus récent ?
 	- Pythagore, Archimède, Euclide
 	+ Pythagore, Euclide, Archimède
 	- Archimède, Pythagore, Euclide
@@ -71,15 +77,15 @@ Title:
 	- Gérard de Crémone
 	+ Léonard de Pise
 
-* Dans quel contexte les nombres complexes ont été utilisés pour la première fois ?
+* Dans quel contexte les nombres complexes ont-ils été utilisés pour la première fois ?
 	- Dans la résolution d’équations du second degré
 	+ Dans la résolution d’équations du troisième degré
-	- Dans le problème géométrique de la trisectrice de l’angle
+	- Dans le problème géométrique de la trissection d'un angle
 	- Dans la représentation des rotations dans le plan
 
 * Qui a introduit la représentation des nombres complexes dans le plan ?
 	- Leonhard Euler
-	+ Car Friedrich Gauss
+	+ Carl Friedrich Gauss
 	- René Descartes
 	- Georg Cantor 
 
@@ -107,25 +113,25 @@ Title:
 	+ l’existence d’objets dont une partie est aussi grande que le tout
 	- l’existence d’une somme infinie de termes donnant un résultat fini
 
-* Quel est l’ordre chronologique correct (du plus ancien au plus moderne) ?
+* Dans quel ordre chronologique ont vécu les personnes suivantes, du plus ancien au plus récent ?
 	+ Bolzano, Cantor, Godel
 	- Bolzano, Godel, Cantor
 	- Cantor, Bolzano, Godel
 	- Godel, Cantor, Bolzano
 
-* Soient E et F deux ensembles tels qu’il existe une surjection de E vers F. Alors
+* Soient E et F deux ensembles tels qu’il existe une surjection de E vers F. Alors :
 	- La cardinalité de E est strictement plus grande que la cardinalité de F
 	+ La cardinalité de E est plus grande ou égale à la cardinalité de F
 	- La cardinalité de E est strictement plus petite que la cardinalité de F
 	- La cardinalité de E est plus petite ou égale à la cardinalité de F
 
-* Soient E et F deux ensembles tels qu’il existe une injection de E vers F. Alors
+* Soient E et F deux ensembles tels qu’il existe une injection de E vers F. Alors :
 	- La cardinalité de E est strictement plus grande que la cardinalité de F
 	- La cardinalité de E est plus grande ou égale à la cardinalité de F
 	- La cardinalité de E est strictement plus petite que la cardinalité de F
 	+ La cardinalité de E est plus petite ou égale à la cardinalité de F
 
-* L’hypothèse du continu dit 
+* L’hypothèse du continu dit :
 	- qu’il y a une bijection entre les nombres réels et les nombres complexes
 	- qu’il n’y a pas d’infini plus grand que celui des nombres réels
 	+ que l’infini indénombrable le plus petit est celui des nombres réels
@@ -135,7 +141,7 @@ Title:
 
 *([numquestions=5] [==Histoire de l'Espace et du Temps==]
 
-* Quel est l’ordre chronologique correct (du plus ancien au plus moderne) ?
+* Dans quel ordre chronologique ont vécu les personnes suivantes, du plus ancien au plus récent ?
 	+ Aristote, Hipparque, Ptolémée
 	- Aristote, Ptolémée, Hipparque
 	- Hipparque, Aristote, Ptolémée
@@ -148,19 +154,19 @@ Title:
 	- Le Ciel
 	- Le Timée
 
-** Parmi les affirmations suivantes, avec lesquelles serait d’accord Hipparque ? (Plusieurs bonnes réponses possibles)
+** Parmi les affirmations suivantes, avec lesquelles Hipparque serait-il d’accord ? (Plusieurs bonnes réponses possibles)
 	+ Le mouvement du Soleil est circulaire et uniforme
 	- Le centre de l’orbite du Soleil est la Terre
 	- Le mouvement des planètes est circulaire et uniforme
 	+ Le centre de l’orbite des étoiles est la Terre
 
-* Une théorie avancée par les astronomes hellénistiques a motivé Copernic à introduire le système héliocentrique. Laquelle ?
+* Une théorie, avancée par les astronomes hellénistiques, a motivé Copernic à introduire le système héliocentrique. Quelle est cette théorie ?
 	- La théorie des épicycles
 	- La théorie des excentricités
 	+ La théorie du point équant
 	- La théorie du déférent
 
-* Quel est l’ordre chronologique correct (du plus ancien au plus moderne) ?
+* Dans quel ordre chronologique ont vécu les personnes suivantes, du plus ancien au plus récent ?
 	+ Bruno, Galilée, Leibniz
 	- Bruno, Leibniz, Galilée
 	- Galilée, Bruno, Leibniz
@@ -172,7 +178,7 @@ Title:
 	+ L’expérience du bateau de Gassendi
 	- L’expérience de la pomme de Galilée
 
-* Les équations de l’électromagnétisme de Maxwell ont été écrites 
+* A quelle époque les équations de l’électromagnétisme de Maxwell ont-elles été écrites ? 
 	- entre 1750 et 1800
 	- entre 1800 et 1850
 	+ entre 1850 et 1900
@@ -182,31 +188,31 @@ Title:
 
 *([numquestions=10] [==Introduction générale à l'Histoire des Sciences==]
 
-** Suite aux deux amphithéâtres consacrés à l’introduction générale de l’histoire des sciences, quelle définition faut-il retenir de cette discipline ?
+** Suite aux deux amphithéâtres consacrés à l’introduction générale de l’histoire des sciences, quelle définition faut-il retenir de cette discipline ? (Plusieurs bonnes réponses possibles)
 - C’est le récit chronologique des découvertes scientifiques
 + C’est une enquête rigoureuse sur la progression des modes de connaissance 
 - C’est le récit  des grands changements scientifiques dans l’histoire
 + C’est l’étude de l’évolution des paradigmes scientifiques, de la pensée
 
-** A partir de quel moment considère-ton qu’il y a réellement science ?
+** A partir de quel moment considère-ton qu’il y a réellement science ? (Plusieurs bonnes réponses possibles)
 - Dès lors que nous sommes en capacité de raisonner
 + Dès lors qu’un contenu de connaissance fait l’objet d’une formalisation systématique
 - Dès lors qu’un savoir fait l’objet d’une croyance partagée
 + Dès lors que des connaissances scientifiques, vérifiées formellement et/ou expérimentalement, sont universellement tenues pour vraies
 
-** Platon, dans sa République, distingue deux mondes : comment les nomme-t-ils ?
+** Platon, dans sa République, distingue deux mondes : comment les nomme-t-ils ? (Plusieurs bonnes réponses possibles)
 - Le monde de la lumière
 + Le monde sensible
 - Le monde de la matière
 + Le monde intelligible
 
 * Platon se sert d’une allégorie pour illustrer sa distinction de deux mondes : comment se nomme-t-elle ?
-- De la grotte
-- Des esclaves
-+ De la caverne
-- De la philosophie
+- L'allégorie de la grotte
+- L'allégorie des esclaves
++ L'allégorie de la caverne
+- L'allégorie de la philosophie
 
-** Pour Platon, qu’est-ce qui nous permet d’atteindre la connaissance vraie ?
+** Pour Platon, qu’est-ce qui nous permet d’atteindre la connaissance vraie ? (Plusieurs bonnes réponses possibles)
 + Les Idées
 + Les mathématiques
 - Les sens
@@ -218,13 +224,13 @@ Title:
 + Que nul n’entre ici s’il n’est géomètre
 - Que nul n’entre ici s’il n’est sophiste
 
-** Pour quelle raison le paradigme platonicien des deux mondes a-t-il freiné l’essor des sciences ?
+** Pour quelle raison le paradigme platonicien des deux mondes a-t-il freiné l’essor des sciences ? (Plusieurs bonnes réponses possibles)
 - Parce qu’il promeut la nécessité, pour la science, d’être en étroite relation avec la matière, la nature, le monde concret
 + Parce que seul l’intelligible pur, soit l’abstraction seule, peut accéder au vrai 
 - Parce que l’expérience sensible était, pour lui, au cœur de la recherche de la vérité
 + Parce qu’il rompt tout lien possible entre les réalités intelligibles et les réalités sensibles
 
-** Dans le livre VII de La République, Platon met en place un système de valeurs qui a structuré et structure encore notre image du monde. Relevez deux couples platoniciens de valeurs synonymes parmi les quatre proposés ici.
+** Dans le livre VII de La République, Platon met en place un système de valeurs qui a structuré et structure encore notre image du monde. Relevez deux couples platoniciens de valeurs synonymes parmi les quatre proposés ici. (Plusieurs bonnes réponses possibles)
 + Intelligence/Beauté
 - Intelligence/Cruauté
 + Sensibilité/Ignorance
@@ -236,13 +242,13 @@ Title:
 + Avec Aristote, ce qui est observé prime sur la théorie
 - Avec Aristote, la perception sensible n’a plus droit de cité
 
-** Les grandes ruptures épistémologiques sont influencées par des causes extérieures aux sciences. Quelles sont ces causes ?
+** Les grandes ruptures épistémologiques sont influencées par des causes extérieures aux sciences. Quelles sont ces causes ? (Plusieurs bonnes réponses possibles)
 + Un environnement socioculturel, politique et économique
 + Les avancées techniques
 - Le hasard
 - La religion
 
-** Que faut-il entendre par « révolution copernicienne » ?
+** Que faut-il entendre par « révolution copernicienne » ? (Plusieurs bonnes réponses possibles)
 - Que le système géocentrique est réhabilité
 + Que le système héliocentrique supplante le système géocentrique
 + Que l’inversion de la relation sujet/objet produit un nouveau paradigme philosophique
@@ -254,13 +260,13 @@ Title:
 + Des sciences dont l’objet est instable, changeant
 - Des sciences flasques
 
-** Parmi ces quatre propositions, relevez deux blessures narcissiques faites à l’homme.
+** Parmi ces quatre propositions, relevez deux blessures narcissiques faites à l’homme. (Plusieurs bonnes réponses possibles)
 + La conscience, contrairement à ce que pensait Descartes, n’est plus reine en sa demeure (théorie de l’inconscient)
 + L’homme ne jouit plus d’une place particulière dans l’ordre de la création (théorie de la sélection naturelle, Darwin)
 - Dieu est le créateur, l’homme sa créature ; Dieu est tout puissant, l’homme est faible par nature
 - « La terre ne forme qu’une parcelle insignifiante de système cosmique » (Freud, à propos du démenti de Copernic)
 
-* Les Grecs avaient l’intuition de l’inconscient, porté notamment par les Chœurs dans les tragédies, mais qui l’a systématisé et formalisé, élevé au rang de théorie scientifique ?
+* Les Grecs avaient l’intuition de l’inconscient, porté notamment par les Chœurs dans les tragédies. Mais qui a systématisé et formalisé cette notion de l'inconscient, élevée au rang de théorie scientifique ?
 - Leibniz
 - Lacan
 - Darwin
@@ -288,11 +294,11 @@ Title:
 - un encodage avec des traits et des points
 - des signaux lumineux 
 
-** Quel(s) scientifiques ont élaboré la théorie des algorithmes ? (plusieurs réponses possibles)
-+ Alan Turing
-+ Alonzo Church
-- John von Neumann
-- Ada Lovelace
+** La machine de Turing : (Plusieurs bonnes réponses possibles)
++ est un calculateur symbolique universel
++ est un outil utilisé par la théorie des algorithmes
+- a été utilisée pendant la seconde guerre mondiale pour déchiffrer les messages de l'armée allemande
+- est une machine électronique
 
 * Quel scientifique a défini l'architecture des machines sur le modèle CPU - Mémoire - UAL ?
 + John von Neumann

@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.10.17)  14 DEC 2018 10:46
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.10.17)  14 DEC 2018 13:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**\nonstopmode\def\CorrigeIndivExterne{1}\def\NoWatermarkExterne{1}\def\AMCNomb
-reCopies{2}\def\NoHyperRef{1} \input{"DOC-filtered.tex"}
+**\nonstopmode\def\AMCNombreCopies{2}\def\CorrigeIndivExterne{1}\def\NoHyperRef
+{1}\def\NoWatermarkExterne{1} \input{"DOC-filtered.tex"}
 (./DOC-filtered.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -1070,38 +1070,60 @@ Normal \toks register pool exhausted, switching to extended pool.
 \unnamedD@v=\toks273
 \unnamedD@vi=\toks274
 \unnamedD@vii=\toks275
-LaTeX Font Info:    Try loading font information for U+msa on input line 556.
+LaTeX Font Info:    Try loading font information for U+msa on input line 562.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 556.
+LaTeX Font Info:    Try loading font information for U+msb on input line 562.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 556--556
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 562.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 562.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 562.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 562.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 
  []
 
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 556
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 562
 .
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
 ] [2] [3] [4]
-[5] [6
-
-] [7
+[5] [6] [7
 
 ] [8
 
-] [1
+]
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 562.
 
 
-] [2] [3] [4] [5] [6
+LaTeX Warning: Command \textbullet invalid in math mode on input line 562.
 
-] [7
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 562.
+
+
+LaTeX Warning: Command \textbullet invalid in math mode on input line 562.
+
+[1
+
+
+] [2] [3] [4] [5] [6] [7
 
 ] [8
 
@@ -1109,7 +1131,7 @@ File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Here is how much of TeX's memory you used:
  16764 strings out of 495552
  317391 string characters out of 6186200
- 519832 words of memory out of 5000000
+ 521108 words of memory out of 5000000
  19909 multiletter control sequences out of 15000+600000
  5825 words of font info for 40 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
