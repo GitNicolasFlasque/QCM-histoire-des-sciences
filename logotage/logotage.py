@@ -23,18 +23,41 @@ def hasLogo(page_number):
     logotable = isbasepage or isanswerpage
     return logotable
 
+def extract_answer_sheets(filename):
+    exampages = 8
+    infile = PdfFileReader(file(filename, 'rb'))
+    outfilename = 'answer_sheets_' + filename
+    nbp = infile.getNumPages()
+
+    output = PdfFileWriter()
+    for cpt in range(nbp):
+        relpagenum = cpt % exampages
+        isanswerpage = (relpagenum == exampages-2)
+        if isanswerpage :        
+            page = infile.getPage(cpt)
+            output.addPage(page)
+            page = infile.getPage(cpt+1)
+            output.addPage(page)
+    
+    outfile = file(outfilename, u'wb')
+    output.write(outfile)
+    outfile.close()   
+    return
+
 def logotage(filename):
     infile = PdfFileReader(file(filename, 'rb'))
     outfilename = 'logo_' + filename
     # preparation du watermark : logo
-    imgfile='./logos/logo efrei paris.png'
-    wmcanvas = canvas.Canvas('watermark_logo.pdf')
-    wmcanvas.drawImage(imgfile, 0.3*cm, 27.9*cm, 4.5*cm, 1.5*cm)
+    wmname = './logos/watermark_logo.pdf'
+    wm=PdfFileReader(file(wmname,"rb"))
+    mergepage = wm.getPage(0)
+    
     nbp = infile.getNumPages()
     output = PdfFileWriter()
     for cpt in range(nbp):
         page = infile.getPage(cpt)
-        
+        if hasLogo(cpt): # on ajoute le watermark sur les seules pages concernees
+            page.mergePage(mergepage)         
         output.addPage(page)
     
     outfile = file(outfilename, u'wb')
